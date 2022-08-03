@@ -17,3 +17,5 @@ band for filtering and the clustering parameters. Small changes in these paramet
 to include network subspace statistics instead of a single station allows the inclusion of different stations and components, and should decrease the important 
 false detection rate observed. The application of the empirical subspace detector to this sequence confirms the potential of this technique to improve event detection 
 and better define spatio-temporal seismicity patterns.
+
+Added the matlab function "Detection_Threshold_Song.m" to determine the detection threshold according to Song et al., 2014, using the data and subspace decomposition.
